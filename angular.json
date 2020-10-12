@@ -62,7 +62,8 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "bmw-frontend:build"
+            "browserTarget": "bmw-frontend:build",
+            "port": 5000
           },
           "configurations": {
             "production": {
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "bmw-frontend"
+    }
+  },
+  "defaultProject": "bmw-frontend",
+  "cli": {
+    "analytics": false
+  }
 }

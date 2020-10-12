@@ -1,0 +1,29 @@
+<h2>BMW Car List</h2>
+<p></p>
+
+<div class="panel panel-primary">
+    <div class="panel-heading"></div>
+    <div class="panel-body">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Car Id:</th>
+            <th>Car Name:</th>
+            <th>Creation Date:</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let car of cars; let i=index">
+            <td>{{car.id}}</td>
+            <td>{{car.carName}}</td>
+            <td>{{car.createdDate}}</td>
+          </tr>
+
+    
+        </tbody>
+
+
+
+      </table>
+    </div>
+  </div>
