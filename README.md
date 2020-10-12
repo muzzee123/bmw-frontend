@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Run `ng serve` for a dev server. Navigate to `http://localhost:5000/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
@@ -14,14 +14,23 @@ Run `ng generate component component-name` to generate a new component. You can 
 
 Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Requirements For building and running the application you need:
 
-## Running end-to-end tests
+node is needed to run npm commands, I used node 12
+angular cli => 9
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+The back must be running in order to access the service.
 
-## Further help
+1. download the source code to your local machine.
+2. go to the root of the project and run npm install to download dependencies.
+3. use npm start to run the project or ng serve
+4. access the project on localhost:5000/cars to view list of cars.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+note: I added a login and register page, it does not feel right to write a front end without those, 
+if it was not needed apologies, so please register your login credentials at first and then login so you can access the list.
+
+more: I would have added CRUD functions (update, delete and create) if I had more time, but those are already in place in the back end
+it's just a matter of calling them from the front end.
+
+Hope all is in order.
